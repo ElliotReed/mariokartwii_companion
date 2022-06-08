@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<main>
+
+  <div class="container">
+
+    {% for d in data %}
+
+
+    <h2>{{d.label}}</h2>
+    <img src="{% static d.image_path %}" />
+
+
+    {% endfor %}
+
+  </div>
+
+</main>
+{% endblock content %}

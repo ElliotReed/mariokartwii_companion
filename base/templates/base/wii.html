@@ -1,0 +1,26 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block content %}
+<main class="container">
+
+  {% for cup in cups %}
+  <div class="cup">
+    <div class="img-container">
+      <img src="{% static 'images/cups/' %}{{cup.image}}" />
+    </div>
+    <h2>{{cup.label}}</h2>
+
+    <ul class="tracks">
+
+      {% for track in cup.tracks.all %}
+      <li>{{track.label}}</li>
+      {% endfor %}
+
+    </ul>
+  </div>
+  {% endfor %}
+
+</main>
+{% endblock content %}

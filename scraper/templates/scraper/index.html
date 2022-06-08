@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+
+{% block title %}Mario Kart Wii Scraper{% endblock title %}
+
+{% block content %}
+<main>
+  <h1>Scraper</h1>
+  <hr>
+  <section class="nav-secondary">
+
+    {% if request.user.is_superuser %}
+    <a href="{% url 'scraper:characters' %}" class="btn">Scrape characters</a>
+    <a href="{% url 'scraper:vehicles' %}" class="btn">Scrape vehicles</a>
+    <a href="{% url 'scraper:wii' %}" class="btn">Scrape Wii cups</a>
+    <a href="{% url 'scraper:ctgp' %}" class="btn">Scrape CTGP cups</a>
+    {% endif %}
+  </section>
+</main>
+
+{% endblock content %}

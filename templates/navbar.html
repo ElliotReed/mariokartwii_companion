@@ -1,0 +1,41 @@
+{% load static %}
+
+<header id="banner">
+
+  <section class="logo-wrapper">
+    <a href="{% url 'base:index' %}">
+      <picture>
+        <source srcset="{%  static 'images/Mario_Kart_Wii_Logo-150w.png' %}" media="(max-width: 340px)">
+        <source srcset="{%  static 'images/Mario_Kart_Wii_Logo-300w.png' %}" media="(max-width: 1080px)">
+        <img class="logo" src="{%  static 'images/Mario_Kart_Wii_Logo.png' %}" />
+      </picture>
+    </a>
+  </section>
+
+  <!-- <form class="banner__search" method="GET" action="{% url 'base:index' %}">
+    <input type="text" name="q" placeholder="Search Cups or Tracks..." />
+  </form> -->
+
+  {% if request.user.is_authenticated %}
+  <section class="user">
+    <img src="{% static 'images/characters/' %}{{user.avatar}}" />
+    <a href="{% url 'user:profile' user.id %}">{{user.username}}</a>
+    <a href="{% url 'user:logout' %}">Sign out</a>
+    {% else %}
+    <a href="{% url 'user:login' %}">Login</a>
+    <a href="{% url 'user:register' %}">Register</a>
+    <hr>
+    {% endif %}
+  </section>
+
+  <section class="nav-secondary">
+    {% if request.user.is_superuser %}
+    <a href="{% url 'scraper:index' %}" class="btn">Scraper</a>
+    {% endif %}
+
+    <a href="{% url 'base:ctgp' %}" class="btn">CTGP Revolution</a>
+    <a href="{% url 'base:wii' %}" class="btn">Wii</a>
+    <a href="{% url 'base:vehicles' %}" class="btn">vehicles</a>
+    <a href="{% url 'base:characters' %}" class="btn">characters</a>
+  </section>
+</header>

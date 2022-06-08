@@ -1,0 +1,434 @@
+[
+  {
+    "label": "Baby Mario",
+    "image": "Baby_Mario.png",
+    "bonus": {
+      "label": "Baby Mario",
+      "total": 14,
+      "speed": 0,
+      "weight": 8,
+      "acceleration": 0,
+      "handling": 6,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "small"
+  },
+  {
+    "label": "Baby Luigi",
+    "image": "Baby_Luigi.png",
+    "bonus": {
+      "label": "Baby Luigi",
+      "total": 13,
+      "speed": 5,
+      "weight": 8,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "small"
+  },
+  {
+    "label": "Baby Peach",
+    "image": "Baby_Peach.png",
+    "bonus": {
+      "label": "Baby Peach",
+      "total": 15,
+      "speed": 3,
+      "weight": 6,
+      "acceleration": 3,
+      "handling": 3,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "small"
+  },
+  {
+    "label": "Baby Daisy",
+    "image": "Baby_Daisy.png",
+    "bonus": {
+      "label": "Baby Daisy",
+      "total": 14,
+      "speed": 5,
+      "weight": 6,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 3
+    },
+    "class": "small"
+  },
+  {
+    "label": "Toad",
+    "image": "Toad.png",
+    "bonus": {
+      "label": "Toad",
+      "total": 12,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 6,
+      "handling": 0,
+      "drift": 6,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "small"
+  },
+  {
+    "label": "Toadette",
+    "image": "Toadette.png",
+    "bonus": {
+      "label": "Toadette",
+      "total": 9,
+      "speed": 3,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 6,
+      "miniturbo": 0
+    },
+    "class": "small"
+  },
+  {
+    "label": "Koopa Troopa",
+    "image": "Koopa_Troopa.png",
+    "bonus": {
+      "label": "Koopa Troopa",
+      "total": 9,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 3,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 6
+    },
+    "class": "small"
+  },
+  {
+    "label": "Dry Bones",
+    "image": "Dry_Bones.png",
+    "bonus": {
+      "label": "Dry Bones",
+      "total": 12,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 3,
+      "handling": 0,
+      "drift": 3,
+      "offroad": 0,
+      "miniturbo": 6
+    },
+    "class": "small"
+  },
+  {
+    "label": "Mario",
+    "image": "Mario.png",
+    "bonus": {
+      "label": "Mario",
+      "total": 13,
+      "speed": 0,
+      "weight": 6,
+      "acceleration": 2,
+      "handling": 2,
+      "drift": 3,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Luigi",
+    "image": "Luigi.png",
+    "bonus": {
+      "label": "Luigi",
+      "total": 8,
+      "speed": 2,
+      "weight": 6,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Peach",
+    "image": "Peach.png",
+    "bonus": {
+      "label": "Peach",
+      "total": 13,
+      "speed": 2,
+      "weight": 0,
+      "acceleration": 5,
+      "handling": 0,
+      "drift": 6,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Daisy",
+    "image": "Daisy.png",
+    "bonus": {
+      "label": "Daisy",
+      "total": 9,
+      "speed": 4,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 2,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 3
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Yoshi",
+    "image": "Yoshi.png",
+    "bonus": {
+      "label": "Yoshi",
+      "total": 11,
+      "speed": 0,
+      "weight": 3,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 3,
+      "offroad": 5,
+      "miniturbo": 0
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Birdo",
+    "image": "Birdo.png",
+    "bonus": {
+      "label": "Birdo",
+      "total": 11,
+      "speed": 0,
+      "weight": 3,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 3,
+      "miniturbo": 5
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Diddy Kong",
+    "image": "Diddy_Kong.png",
+    "bonus": {
+      "label": "Diddy Kong",
+      "total": 11,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 3,
+      "handling": 0,
+      "drift": 3,
+      "offroad": 0,
+      "miniturbo": 5
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Bowser Jr.",
+    "image": "Bowser_Jr..png",
+    "bonus": {
+      "label": "Bowser Jr.",
+      "total": 6,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 3,
+      "miniturbo": 3
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Wario",
+    "image": "Wario.png",
+    "bonus": {
+      "label": "Wario",
+      "total": 12,
+      "speed": 0,
+      "weight": 3,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 3,
+      "miniturbo": 6
+    },
+    "class": "large"
+  },
+  {
+    "label": "Waluigi",
+    "image": "Waluigi.png",
+    "bonus": {
+      "label": "Waluigi",
+      "total": 14,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 6,
+      "handling": 0,
+      "drift": 5,
+      "offroad": 3,
+      "miniturbo": 0
+    },
+    "class": "large"
+  },
+  {
+    "label": "Donkey Kong",
+    "image": "Donkey_Kong.png",
+    "bonus": {
+      "label": "Donkey Kong",
+      "total": 10,
+      "speed": 0,
+      "weight": 3,
+      "acceleration": 2,
+      "handling": 2,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 3
+    },
+    "class": "large"
+  },
+  {
+    "label": "Bowser",
+    "image": "Bowser.png",
+    "bonus": {
+      "label": "Bowser",
+      "total": 10,
+      "speed": 2,
+      "weight": 5,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 3,
+      "offroad": 0,
+      "miniturbo": 0
+    },
+    "class": "large"
+  },
+  {
+    "label": "King Boo",
+    "image": "King_Boo.png",
+    "bonus": {
+      "label": "King Boo",
+      "total": 8,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 5,
+      "drift": 0,
+      "offroad": 3,
+      "miniturbo": 0
+    },
+    "class": "large"
+  },
+  {
+    "label": "Rosalina",
+    "image": "Rosalina.png",
+    "bonus": {
+      "label": "Rosalina",
+      "total": 9,
+      "speed": 3,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 3,
+      "drift": 0,
+      "offroad": 0,
+      "miniturbo": 3
+    },
+    "class": "large"
+  },
+  {
+    "label": "Funky Kong",
+    "image": "Funky_Kong.png",
+    "bonus": {
+      "label": "Funky Kong",
+      "total": 7,
+      "speed": 4,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 3,
+      "miniturbo": 0
+    },
+    "class": "large"
+  },
+  {
+    "label": "Dry Bowser",
+    "image": "Dry_Bowser.png",
+    "bonus": {
+      "label": "Dry Bowser",
+      "total": 12,
+      "speed": 0,
+      "weight": 0,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 6,
+      "miniturbo": 6
+    },
+    "class": "large"
+  },
+  {
+    "label": "Small Mii",
+    "image": "Small_Mii.png",
+    "bonus": {
+      "label": "small Mii",
+      "total": 12,
+      "speed": 3,
+      "weight": 3,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 3,
+      "offroad": 0,
+      "miniturbo": 3
+    },
+    "class": "small"
+  },
+  {
+    "label": "Medium Mii",
+    "image": "Medium_Mii.png",
+    "bonus": {
+      "label": "medium Mii",
+      "total": 12,
+      "speed": 3,
+      "weight": 3,
+      "acceleration": 0,
+      "handling": 0,
+      "drift": 0,
+      "offroad": 3,
+      "miniturbo": 3
+    },
+    "class": "medium"
+  },
+  {
+    "label": "Large Mii",
+    "image": "Large_Mii.png",
+    "bonus": {
+      "label": "large Mii",
+      "total": 15,
+      "speed": 3,
+      "weight": 0,
+      "acceleration": 3,
+      "handling": 3,
+      "drift": 0,
+      "offroad": 3,
+      "miniturbo": 3
+    },
+    "class": "large"
+  }
+]

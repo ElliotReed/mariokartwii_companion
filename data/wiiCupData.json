@@ -1,0 +1,34 @@
+[
+  {
+    "label": "Mushroom Cup",
+    "image": "Mushroom_Cup.png"
+  },
+  {
+    "label": "Flower Cup",
+    "image": "Flower_Cup.png"
+  },
+  {
+    "label": "Star Cup",
+    "image": "Star_Cup.png"
+  },
+  {
+    "label": "Special Cup",
+    "image": "Special_Cup.png"
+  },
+  {
+    "label": "Shell Cup",
+    "image": "Shell_Cup.png"
+  },
+  {
+    "label": "Banana Cup",
+    "image": "Banana_Cup.png"
+  },
+  {
+    "label": "Leaf Cup",
+    "image": "Leaf_Cup.png"
+  },
+  {
+    "label": "Lightning Cup",
+    "image": "Lightning_Cup.png"
+  }
+]

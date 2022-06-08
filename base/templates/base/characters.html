@@ -1,0 +1,47 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block styles %}
+<link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/vehicles.css' %}">
+{% endblock styles %}
+
+{% block title %}
+Mario Kart Wii Characters
+{% endblock title %}
+
+{% block content %}
+<main class="container">
+
+  <h1 class="race-header race-stripe-right">Characters</h1>
+
+  {% for character in characters %}
+  <section class="racer-container">
+
+    <div class="racer-card">
+
+      <img src="{% static 'images/characters/' %}{{character.image}}" alt="{{character.name}}" />
+
+
+      <h2>{{character.label}}</h2>
+      <p>Class: {{character.character_class}}</p>
+    </div>
+    <aside>
+
+      <h3>Bonus <span>(total: {{character.bonus.total}})</span></h3>
+      <ul>
+        <li>Speed: {{character.bonus.speed}}</li>
+        <li>Weight: {{character.bonus.weight}}</li>
+        <li>Acceleration: {{character.bonus.acceleration}}</li>
+        <li>Handling: {{character.bonus.handling}}</li>
+        <li>Drift: {{character.bonus.drift}}</li>
+        <li>OffRoad: {{character.bonus.offroad}}</li>
+        <li>MiniTurbo: {{character.bonus.miniturbo}}</li>
+      </ul>
+    </aside>
+
+  </section>
+  {% endfor %}
+
+</main>
+{% endblock content %}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="{% static 'manifest.webmanifest' %}">
+  <link rel="shortcut icon" href="{% static 'images/icon/favicon-32x32-dunplab-manifest-18729.png' %}assets/">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/main.css' %}">
+  {% block styles %}
+  {% endblock styles %}
+  <title>{% block title %}{% endblock title %} | Mario Kart Wii Companion</title>
+</head>
+
+<body class="background">
+  <!-- <div id="loader">
+    <div class="loader">Loading...</div>
+  </div> -->
+  {% include 'navbar.html' %}
+
+  <button id="to-top" class="wii-button">☝</button>
+
+  {% if messages %}
+  <ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags}}" {% endif %}>{{message}}</li>
+      {% endfor %}
+  </ul>
+  {% endif %}
+
+  {% block content %}
+  {% endblock content %}
+
+  {% block scripts %}
+  {% endblock scripts %}
+  <script type="module" type="javascript" src="{% static 'js/app.js' %}"></script>
+</body>
+
+</html>

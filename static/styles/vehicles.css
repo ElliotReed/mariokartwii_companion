@@ -1,0 +1,41 @@
+.racer-container {
+  margin: 1rem 0;
+  animation: var(--fade-in), var(--animate-background-wii-repeat);
+  min-height: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border: var(--border-size) solid var(--blue);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  background: var(--background-wii-repeat);
+  color: var(--white);
+  overflow: hidden;
+}
+
+.race-stripe-right h1 {
+  border: 1px solid transparent;
+  margin: 1rem;
+}
+.racer-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.racer-card img {
+  height: 4rem;
+}
+
+.racer-card p {
+  font-weight: bold;
+  margin: 0.32rem 0 0;
+}
+
+.racer-container ul {
+  list-style-type: square;
+}

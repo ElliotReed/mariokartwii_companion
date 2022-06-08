@@ -1,0 +1,1174 @@
+[
+  {
+    "id": 1,
+    "title": "Luigi Circuit"
+  },
+  {
+    "id": 2,
+    "title": "Moo Moo Meadows"
+  },
+  {
+    "id": 3,
+    "title": "Mushroom Gorge"
+  },
+  {
+    "id": 4,
+    "title": "Toad's Factory"
+  },
+  {
+    "id": 5,
+    "title": "Mario Circuit"
+  },
+  {
+    "id": 6,
+    "title": "Coconut Mall"
+  },
+  {
+    "id": 7,
+    "title": "DK Summit"
+  },
+  {
+    "id": 8,
+    "title": "Wario's Gold Mine"
+  },
+  {
+    "id": 9,
+    "title": "Daisy Circuit"
+  },
+  {
+    "id": 10,
+    "title": "Koopa Cape"
+  },
+  {
+    "id": 11,
+    "title": "Maple Treeway"
+  },
+  {
+    "id": 12,
+    "title": "Grumble Volcano"
+  },
+  {
+    "id": 13,
+    "title": "Dry Dry Ruins"
+  },
+  {
+    "id": 14,
+    "title": "Moonview Highway"
+  },
+  {
+    "id": 15,
+    "title": "Bowser's Castle"
+  },
+  {
+    "id": 16,
+    "title": "Rainbow Road"
+  },
+  {
+    "id": 17,
+    "title": "GCN Peach Beach"
+  },
+  {
+    "id": 18,
+    "title": "DS Yoshi Falls"
+  },
+  {
+    "id": 19,
+    "title": "SNES Ghost Valley 2"
+  },
+  {
+    "id": 20,
+    "title": "N64 Mario Raceway"
+  },
+  {
+    "id": 21,
+    "title": "N64 Sherbet Land"
+  },
+  {
+    "id": 22,
+    "title": "GBA Shy Guy Beach"
+  },
+  {
+    "id": 23,
+    "title": "DS Delfino Square"
+  },
+  {
+    "id": 24,
+    "title": "GCN Waluigi Stadium"
+  },
+  {
+    "id": 25,
+    "title": "DS Desert Hills"
+  },
+  {
+    "id": 26,
+    "title": "GBA Bowser Castle 3"
+  },
+  {
+    "id": 27,
+    "title": "N64 DK's Jungle Parkway"
+  },
+  {
+    "id": 28,
+    "title": "GCN Mario Circuit"
+  },
+  {
+    "id": 29,
+    "title": "SNES Mario Circuit 3"
+  },
+  {
+    "id": 30,
+    "title": "DS Peach Gardens"
+  },
+  {
+    "id": 31,
+    "title": "GCN DK Mountain"
+  },
+  {
+    "id": 32,
+    "title": "N64 Bowser's Castle"
+  },
+  {
+    "id": 33,
+    "title": "Dawn Township"
+  },
+  {
+    "id": 34,
+    "title": "GBA Cheep Cheep Island"
+  },
+  {
+    "id": 35,
+    "title": "ASDF_Course"
+  },
+  {
+    "id": 36,
+    "title": "Sky Shrine"
+  },
+  {
+    "id": 37,
+    "title": "Sunset Forest"
+  },
+  {
+    "id": 38,
+    "title": "Jungle Cliff"
+  },
+  {
+    "id": 39,
+    "title": "Kartwood Creek"
+  },
+  {
+    "id": 40,
+    "title": "Haunted Gardens"
+  },
+  {
+    "id": 41,
+    "title": "GBA Broken Pier"
+  },
+  {
+    "id": 42,
+    "title": "SNES Choco Island 2"
+  },
+  {
+    "id": 43,
+    "title": "Rush City Run"
+  },
+  {
+    "id": 44,
+    "title": "Twin Peaks"
+  },
+  {
+    "id": 45,
+    "title": "DS Figure-8 Circuit"
+  },
+  {
+    "id": 46,
+    "title": "Spectral Station"
+  },
+  {
+    "id": 47,
+    "title": "DS Waluigi Pinball"
+  },
+  {
+    "id": 48,
+    "title": "GCN Daisy Cruiser"
+  },
+  {
+    "id": 49,
+    "title": "GBA Bowser Castle 4"
+  },
+  {
+    "id": 50,
+    "title": "Luncheon Tour"
+  },
+  {
+    "id": 51,
+    "title": "DS Wario Stadium"
+  },
+  {
+    "id": 52,
+    "title": "The Rabbit Hole"
+  },
+  {
+    "id": 53,
+    "title": "SNES Mario Circuit 1"
+  },
+  {
+    "id": 54,
+    "title": "Sakura Sanctuary"
+  },
+  {
+    "id": 55,
+    "title": "Superstar Dystopia"
+  },
+  {
+    "id": 56,
+    "title": "DS Cheep Cheep Beach"
+  },
+  {
+    "id": 57,
+    "title": "GCN Yoshi Circuit"
+  },
+  {
+    "id": 58,
+    "title": "SNES Mario Circuit 2"
+  },
+  {
+    "id": 59,
+    "title": "N64 Royal Raceway"
+  },
+  {
+    "id": 60,
+    "title": "Candy Coaster"
+  },
+  {
+    "id": 61,
+    "title": "DS Airship Fortress"
+  },
+  {
+    "id": 62,
+    "title": "Yoshi Lagoon"
+  },
+  {
+    "id": 63,
+    "title": "N64 Choco Mountain"
+  },
+  {
+    "id": 64,
+    "title": "Summer Starville"
+  },
+  {
+    "id": 65,
+    "title": "Waluigi's Motocross"
+  },
+  {
+    "id": 66,
+    "title": "SNES Bowser Castle 2"
+  },
+  {
+    "id": 67,
+    "title": "GCN Bowser's Castle"
+  },
+  {
+    "id": 68,
+    "title": "Incendia Castle"
+  },
+  {
+    "id": 69,
+    "title": "Melting Magma Melee"
+  },
+  {
+    "id": 70,
+    "title": "Final Grounds"
+  },
+  {
+    "id": 71,
+    "title": "Pipe Underworld"
+  },
+  {
+    "id": 72,
+    "title": "Canyon Run"
+  },
+  {
+    "id": 73,
+    "title": "New Moon Manor"
+  },
+  {
+    "id": 74,
+    "title": "Nightlife Party"
+  },
+  {
+    "id": 75,
+    "title": "N64 Banshee Boardwalk"
+  },
+  {
+    "id": 76,
+    "title": "Fishdom Island"
+  },
+  {
+    "id": 77,
+    "title": "Toad Raceway"
+  },
+  {
+    "id": 78,
+    "title": "Spike Desert"
+  },
+  {
+    "id": 79,
+    "title": "Delfino Island"
+  },
+  {
+    "id": 80,
+    "title": "Six King Labyrinth"
+  },
+  {
+    "id": 81,
+    "title": "GCN Luigi Circuit"
+  },
+  {
+    "id": 82,
+    "title": "Unnamed Valley"
+  },
+  {
+    "id": 83,
+    "title": "Volcano Canyon"
+  },
+  {
+    "id": 84,
+    "title": "Undiscovered Offlimit"
+  },
+  {
+    "id": 85,
+    "title": "Honeybee Hideout"
+  },
+  {
+    "id": 86,
+    "title": "Desert Fort"
+  },
+  {
+    "id": 87,
+    "title": "Rosalina's Snow World‎"
+  },
+  {
+    "id": 88,
+    "title": "DKR Star City"
+  },
+  {
+    "id": 89,
+    "title": "SNES Donut Plains 3"
+  },
+  {
+    "id": 90,
+    "title": "Skyline Avenue"
+  },
+  {
+    "id": 91,
+    "title": "GCN Wario Colosseum"
+  },
+  {
+    "id": 92,
+    "title": "Mushroom Peaks"
+  },
+  {
+    "id": 93,
+    "title": "Sarasa Kingdom"
+  },
+  {
+    "id": 94,
+    "title": "Mario Castle Raceway"
+  },
+  {
+    "id": 95,
+    "title": "Autumn Leavesway"
+  },
+  {
+    "id": 96,
+    "title": "GCN Sherbet Land"
+  },
+  {
+    "id": 97,
+    "title": "SNES Donut Plains 2"
+  },
+  {
+    "id": 98,
+    "title": "DS Tick-Tock Clock"
+  },
+  {
+    "id": 99,
+    "title": "Quaking Mad Cliffs"
+  },
+  {
+    "id": 100,
+    "title": "Neo Koopa City"
+  },
+  {
+    "id": 101,
+    "title": "Infernal Pipeyard"
+  },
+  {
+    "id": 102,
+    "title": "Jungle Ruins"
+  },
+  {
+    "id": 103,
+    "title": "Envenom Snowstorm"
+  },
+  {
+    "id": 104,
+    "title": "CTR Cortex Castle"
+  },
+  {
+    "id": 105,
+    "title": "GBA Ribbon Road"
+  },
+  {
+    "id": 106,
+    "title": "DS Luigi's Mansion"
+  },
+  {
+    "id": 107,
+    "title": "Wolf Castlegrounds"
+  },
+  {
+    "id": 108,
+    "title": "Castle of Darkness"
+  },
+  {
+    "id": 109,
+    "title": "Nivurbia"
+  },
+  {
+    "id": 110,
+    "title": "DS Mario Circuit"
+  },
+  {
+    "id": 111,
+    "title": "Cave Island"
+  },
+  {
+    "id": 112,
+    "title": "Dark Matter Shrine"
+  },
+  {
+    "id": 113,
+    "title": "GBA Sky Garden"
+  },
+  {
+    "id": 114,
+    "title": "Glimmer Express Trains"
+  },
+  {
+    "id": 115,
+    "title": "Garden of Dreams"
+  },
+  {
+    "id": 116,
+    "title": "Desert Castle Raceway"
+  },
+  {
+    "id": 117,
+    "title": "Melody Sanctum"
+  },
+  {
+    "id": 118,
+    "title": "Musical Cliff"
+  },
+  {
+    "id": 119,
+    "title": "GBA Cheese Land"
+  },
+  {
+    "id": 120,
+    "title": "Misty Ruins"
+  },
+  {
+    "id": 121,
+    "title": "Stargaze Summit"
+  },
+  {
+    "id": 122,
+    "title": "Sea Stadium"
+  },
+  {
+    "id": 123,
+    "title": "Calidae Desert"
+  },
+  {
+    "id": 124,
+    "title": "N64 Kalimari Desert"
+  },
+  {
+    "id": 125,
+    "title": "Coin Heaven"
+  },
+  {
+    "id": 126,
+    "title": "Kinoko Cave"
+  },
+  {
+    "id": 127,
+    "title": "GCN Baby Park"
+  },
+  {
+    "id": 128,
+    "title": "Desktop Dash"
+  },
+  {
+    "id": 129,
+    "title": "GBA Bowser Castle 1"
+  },
+  {
+    "id": 130,
+    "title": "Aura Metropolis"
+  },
+  {
+    "id": 131,
+    "title": "CTR Blizzard Bluff"
+  },
+  {
+    "id": 132,
+    "title": "Aquania"
+  },
+  {
+    "id": 133,
+    "title": "GBA Mario Circuit"
+  },
+  {
+    "id": 134,
+    "title": "Rezway"
+  },
+  {
+    "id": 135,
+    "title": "Sunset Ridge"
+  },
+  {
+    "id": 136,
+    "title": "Athletic Raceway"
+  },
+  {
+    "id": 137,
+    "title": "Warp Pipe Island"
+  },
+  {
+    "id": 138,
+    "title": "Abandoned Boardwalk"
+  },
+  {
+    "id": 139,
+    "title": "Gothic Castle"
+  },
+  {
+    "id": 140,
+    "title": "DK Ruins"
+  },
+  {
+    "id": 141,
+    "title": "GBA Lakeside Park"
+  },
+  {
+    "id": 142,
+    "title": "N64 Koopa Troopa Beach"
+  },
+  {
+    "id": 143,
+    "title": "Camp Kartigan"
+  },
+  {
+    "id": 144,
+    "title": "Mushroom Island"
+  },
+  {
+    "id": 145,
+    "title": "Desert Mushroom Ruins"
+  },
+  {
+    "id": 146,
+    "title": "GCN Mushroom City"
+  },
+  {
+    "id": 147,
+    "title": "Unfinished Mario Circuit"
+  },
+  {
+    "id": 148,
+    "title": "Slot Circuit"
+  },
+  {
+    "id": 149,
+    "title": "Piranha Plant Pipeline"
+  },
+  {
+    "id": 150,
+    "title": "Lava Lake"
+  },
+  {
+    "id": 151,
+    "title": "Dragon Burial Grounds"
+  },
+  {
+    "id": 152,
+    "title": "N64 Frappe Snowland"
+  },
+  {
+    "id": 153,
+    "title": "GBA Luigi Circuit"
+  },
+  {
+    "id": 154,
+    "title": "Wuhu Mountain"
+  },
+  {
+    "id": 155,
+    "title": "Dreamworld Cloudway"
+  },
+  {
+    "id": 156,
+    "title": "Hellado Mountain"
+  },
+  {
+    "id": 157,
+    "title": "Windy Whirl"
+  },
+  {
+    "id": 158,
+    "title": "Suzuka Circuit"
+  },
+  {
+    "id": 159,
+    "title": "Forest Creek"
+  },
+  {
+    "id": 160,
+    "title": "Dragonite's Island"
+  },
+  {
+    "id": 161,
+    "title": "Lunar Spaceway"
+  },
+  {
+    "id": 162,
+    "title": "Fungal Jungle"
+  },
+  {
+    "id": 163,
+    "title": "GCN Mushroom Bridge"
+  },
+  {
+    "id": 164,
+    "title": "Yoshi's Woolly Raceway"
+  },
+  {
+    "id": 165,
+    "title": "Dark Matter Fortress"
+  },
+  {
+    "id": 166,
+    "title": "Magmatic Sanctuary"
+  },
+  {
+    "id": 167,
+    "title": "Jiyuu Village"
+  },
+  {
+    "id": 168,
+    "title": "Windmill Village"
+  },
+  {
+    "id": 169,
+    "title": "Rock Rock Ridge"
+  },
+  {
+    "id": 170,
+    "title": "Christmas Court"
+  },
+  {
+    "id": 171,
+    "title": "Mansion of Madness"
+  },
+  {
+    "id": 172,
+    "title": "Big Nature City"
+  },
+  {
+    "id": 173,
+    "title": "SADX Twinkle Circuit"
+  },
+  {
+    "id": 174,
+    "title": "Daisy's Palace"
+  },
+  {
+    "id": 175,
+    "title": "Alpine Peak"
+  },
+  {
+    "id": 176,
+    "title": "Celestial Ruins"
+  },
+  {
+    "id": 177,
+    "title": "SNES Bowser Castle 1"
+  },
+  {
+    "id": 178,
+    "title": "Luigi's Island"
+  },
+  {
+    "id": 179,
+    "title": "SNES Bowser Castle 3"
+  },
+  {
+    "id": 180,
+    "title": "Lava Road"
+  },
+  {
+    "id": 181,
+    "title": "Super Marine World"
+  },
+  {
+    "id": 182,
+    "title": "Jungle Jamble"
+  },
+  {
+    "id": 183,
+    "title": "Boshi Skatepark"
+  },
+  {
+    "id": 184,
+    "title": "Flowery Greenhouse"
+  },
+  {
+    "id": 185,
+    "title": "Crystal Plains"
+  },
+  {
+    "id": 186,
+    "title": "Underground Sky"
+  },
+  {
+    "id": 187,
+    "title": "DS DK Pass"
+  },
+  {
+    "id": 188,
+    "title": "GBA Snow Land"
+  },
+  {
+    "id": 189,
+    "title": "Vile Isle"
+  },
+  {
+    "id": 190,
+    "title": "CTR N. Gin Labs"
+  },
+  {
+    "id": 191,
+    "title": "Headlong Skyway"
+  },
+  {
+    "id": 192,
+    "title": "White Garden"
+  },
+  {
+    "id": 193,
+    "title": "Colour Wonderland"
+  },
+  {
+    "id": 194,
+    "title": "N64 Luigi Raceway"
+  },
+  {
+    "id": 195,
+    "title": "Volcanic Valley"
+  },
+  {
+    "id": 196,
+    "title": "Sahara Hideout"
+  },
+  {
+    "id": 197,
+    "title": "Jungle Glade"
+  },
+  {
+    "id": 198,
+    "title": "Comet Starway"
+  },
+  {
+    "id": 199,
+    "title": "Shy Guy's Market"
+  },
+  {
+    "id": 200,
+    "title": "Festival Town"
+  },
+  {
+    "id": 201,
+    "title": "Cherry Blossom Garden"
+  },
+  {
+    "id": 202,
+    "title": "Sky Grove"
+  },
+  {
+    "id": 203,
+    "title": "Tropical Factory"
+  },
+  {
+    "id": 204,
+    "title": "Crystal Dungeon"
+  },
+  {
+    "id": 205,
+    "title": "Aquadrom Stage"
+  },
+  {
+    "id": 206,
+    "title": "Abyssal Ruins"
+  },
+  {
+    "id": 207,
+    "title": "Medieval Castlegrounds"
+  },
+  {
+    "id": 208,
+    "title": "Icepeak Mountain"
+  },
+  {
+    "id": 209,
+    "title": "GBA Sunset Wilds"
+  },
+  {
+    "id": 210,
+    "title": "Thump Bump Forest"
+  },
+  {
+    "id": 211,
+    "title": "N64 Toad's Turnpike"
+  },
+  {
+    "id": 212,
+    "title": "N64 Wario Stadium"
+  },
+  {
+    "id": 213,
+    "title": "GCN Dry Dry Desert"
+  },
+  {
+    "id": 214,
+    "title": "GBA Riverside Park"
+  },
+  {
+    "id": 215,
+    "title": "Siberian Chateau"
+  },
+  {
+    "id": 216,
+    "title": "Concord Town"
+  },
+  {
+    "id": 217,
+    "title": "Big Express City"
+  },
+  {
+    "id": 218,
+    "title": "Lost Fortress"
+  },
+  {
+    "id": 219,
+    "title": "Mushroom Valley"
+  },
+  {
+    "id": 220,
+    "title": "Colour Circuit"
+  },
+  {
+    "id": 221,
+    "title": "DS Bowser Castle"
+  },
+  {
+    "id": 222,
+    "title": "DS Shroom Ridge"
+  },
+  {
+    "id": 223,
+    "title": "GBA Peach Circuit"
+  },
+  {
+    "id": 224,
+    "title": "GBA Rainbow Road"
+  },
+  {
+    "id": 225,
+    "title": "Halogen Highway"
+  },
+  {
+    "id": 226,
+    "title": "Item Fireland"
+  },
+  {
+    "id": 227,
+    "title": "Daisy Hillside"
+  },
+  {
+    "id": 228,
+    "title": "Pianta Shore"
+  },
+  {
+    "id": 229,
+    "title": "Wuhu Island"
+  },
+  {
+    "id": 230,
+    "title": "Pinewood Path"
+  },
+  {
+    "id": 231,
+    "title": "Sinister Vault"
+  },
+  {
+    "id": 232,
+    "title": "Wetland Woods"
+  },
+  {
+    "id": 233,
+    "title": "Sky High Island"
+  },
+  {
+    "id": 234,
+    "title": "GP Mario Beach"
+  },
+  {
+    "id": 235,
+    "title": "Bowser's Fiery Fortress"
+  },
+  {
+    "id": 236,
+    "title": "GBA Bowser Castle 2"
+  },
+  {
+    "id": 237,
+    "title": "SNES Ghost Valley 1"
+  },
+  {
+    "id": 238,
+    "title": "SNES Koopa Beach 2"
+  },
+  {
+    "id": 239,
+    "title": "Rainbow Road: Solar Edition"
+  },
+  {
+    "id": 240,
+    "title": "Castle of Time"
+  },
+  {
+    "id": 241,
+    "title": "Thwomp Swamp"
+  },
+  {
+    "id": 242,
+    "title": "Marble Towers"
+  },
+  {
+    "id": 243,
+    "title": "Heart of China"
+  },
+  {
+    "id": 244,
+    "title": "Koopa Shell Pipeland"
+  },
+  {
+    "id": 245,
+    "title": "Flying Kingdom"
+  },
+  {
+    "id": 246,
+    "title": "Lunar Lights"
+  },
+  {
+    "id": 247,
+    "title": "GCN Rainbow Road"
+  },
+  {
+    "id": 248,
+    "title": "SNES Rainbow Road"
+  },
+  {
+    "id": 249,
+    "title": "Star Slope"
+  },
+  {
+    "id": 250,
+    "title": "N64 Rainbow Road"
+  },
+  {
+    "id": 251,
+    "title": "navigationsearchTranslation ProjectMrBean35000vrChadderzOnline regionCountdown Modechadsoft.co.ukMEGAGoogle Drive1 Overview2 Media3 Tracks3.1 Hidden Tracks4 Special Features4.1 Channel Features4.2 Game Features5 Version Historycustom track distributionMrBean35000vrChadderzCTGP 2.8CTGP 4.4custom tracksPALNTSC-UNTSC-JMario Kart WiiCTGP Revolution v1.02two hidden tracksRiivolutionsome special featureshereCountdown Modecustom server supportNintendo WFCLAN MultiplayerItem RainHigh Data Ratetrack wishlistLuigi CircuitNintendoMoo Moo MeadowsNintendoMushroom GorgeNintendoToad's FactoryNintendoMario CircuitNintendoCoconut MallNintendoDK SummitNintendoWario's Gold MineNintendoDaisy CircuitNintendoKoopa CapeNintendoMaple TreewayNintendoGrumble VolcanoNintendoDry Dry RuinsNintendoMoonview HighwayNintendoBowser's CastleNintendoRainbow RoadNintendoGCN Peach BeachNintendoDS Yoshi FallsNintendoSNES Ghost Valley 2NintendoN64 Mario RacewayNintendoN64 Sherbet LandNintendoGBA Shy Guy BeachNintendoDS Delfino SquareNintendoGCN Waluigi StadiumNintendoDS Desert HillsNintendoGBA Bowser Castle 3NintendoN64 DK's Jungle ParkwayNintendoGCN Mario CircuitNintendoSNES Mario Circuit 3NintendoDS Peach GardensNintendoGCN DK MountainNintendoN64 Bowser's CastleNintendoDawn TownshipJiyuuGBA Cheep Cheep IslandChaosShadow23ASDF_CourseGuilmonSky ShrineChaosShadow23Sunset ForestHarumyneKevinVG207RiidefiJungle CliffWineKeiichi1996Kartwood CreekRich PettyTokukuMKWRiidefiHaunted GardensHollendGBA Broken PierChaosShadow23SNES Choco Island 2zillyRush City RunGredMegaTwin PeaksSucht93aDS Figure-8 CircuitQuajeek99SnikiSpectral StationMrFluffyDS Waluigi PinballYoshidude4Turbo YoshiGCN Daisy CruiserFunkyDude15RiidefiCotniGBA Bowser Castle 4ChaosShadow23Luncheon TourLuke ChandlerDS Wario StadiumZPLThe Rabbit HoleSucht93aSNES Mario Circuit 1ZPLSakura SanctuaryTerronJasperrSuperstar DystopiaSpyKidDS Cheep Cheep Beachsup3rsmash8GCN Yoshi CircuitTockSNES Mario Circuit 2ZPLN64 Royal RacewayZPLCandy CoasterSpyKidDS Airship FortressSnikiYoshi LagoonYoshillerSucht93aN64 Choco MountainTacoJoshSummer StarvilleSpyKidWaluigi's Motocrosswiimaster35000vrSNES Bowser Castle 2MKDasherGCN Bowser's CastleBaoulettesIncendia CastleMrBean35000vrChadderzMelting Magma MeleeSucht93aFinal GroundsMEGAKart69Pipe UnderworldBigOto2MEGAKart69Canyon RunGredMegaNew Moon ManorSnikiNightlife PartyWiiLuigiN64 Banshee BoardwalkzillyFishdom IslandBigOto2JasperrToad RacewayTorranSpike DesertSnikiDelfino IslandVulcanus2Six King LabyrinthMrBean35000vrChadderzGCN Luigi CircuitTockUnnamed ValleyScyeSucht93aVolcano CanyonMultimariokartdsUndiscovered OfflimitKeiichi1996Honeybee HideoutTacoJoshDesert FortJorisMKWRosalina's Snow World‎MysterE99Skipper93653DKR Star CityMewtwo2000SNES Donut Plains 3BearZPLSkyline AvenueSpyKidGCN Wario ColosseumTockMushroom PeaksMrBean35000vrChadderzSarasa KingdomNintenYoshiMario Castle RacewayZPLBriAutumn LeaveswaySpyKidRiidefiGCN Sherbet LandTockSNES Donut Plains 2LucaDS Tick-Tock ClockmaczkopetiQuaking Mad CliffsMrFluffyNeo Koopa CityAtlasInfernal PipeyardChaosShadow23Jungle RuinsMysterE99Envenom SnowstormLucaCTR Cortex CastleMysterE99GBA Ribbon RoadChaosShadow23DS Luigi's MansionTockWolf CastlegroundsSpyKidCastle of DarknessMEGAKart69NivurbiaSpyKidDS Mario CircuitZPLCave IslandWiiLuigiSnikiSpyKidDark Matter ShrineSnikiGBA Sky GardenChaosShadow23Glimmer Express TrainsSnikiGarden of DreamsJiyuuDesert Castle RacewaylgmbMelody SanctumSpyKidMusical CliffLucaGBA Cheese LandChaosShadow23Misty RuinsVulcanus2Stargaze SummitFervSea StadiumzatchiCalidae DesertBjörnN64 Kalimari DesertSnikiCoin HeavenTacoJoshKinoko Caveigorseabra4Sucht93aWingcapmanGCN Baby ParkmaczkopetiDesktop DashMysterE99GBA Bowser Castle 1ChaosShadow23Aura MetropolisSpyKidCTR Blizzard BluffMysterE99AquaniaSpyKidGBA Mario CircuitMysterE99RezwayTrent RezJefeSunset RidgeVulcanus2BigOto2Athletic RacewaySpyKidWarp Pipe IslandWingcapmanLuke ChandlerAbandoned BoardwalkChaosShadow23Renegade CiaraGothic CastleSpyKidDK RuinsWexosGBA Lakeside ParkChaosShadow23N64 Koopa Troopa BeachzillyCamp KartiganMrFluffyMushroom IslandBigOto2Inkling35000vrSnikiDesert Mushroom Ruins4TLPatiMysterE99GCN Mushroom CityRiidefiTockUnfinished Mario CircuitJiyuuSlot CircuitJefePiranha Plant PipelineAtlasLava LakeJorisMKWDragon Burial GroundsMultimariokartdsN64 Frappe SnowlandNintenYoshiGBA Luigi CircuitzillyWuhu MountainFunkyDude15WexosDreamworld CloudwaySpyKidHellado MountainHelloImYourMindChaosShadow23Renegade CiaraWindy WhirlSyst3msSuzuka CircuitlgmbForest CreekOkinDragonite's IslandSucht93aRiidefiLunar SpacewayBigOto2Fungal JungleTacoJoshGCN Mushroom BridgeTockYoshi's Woolly RacewayAidan190903ANoobDark Matter FortressJustinMagmatic SanctuaryZPLJasperr_tZJiyuu VillageJiyuuWindmill VillageChaosShadow23Rock Rock RidgeMrKoeikoeizillyChristmas CourtLuke ChandlerMansion of MadnessSucht93aBig Nature CitylgmbSADX Twinkle Circuitigorseabra4Daisy's PalaceVulcanus2JorisMKWAlpine PeakMysterE99Celestial RuinsChaosShadow23SNES Bowser Castle 1ChaosShadow23Luigi's IslandHarumyneZPLSNES Bowser Castle 3DasFragezeichenTockLava RoadFireLuigiCaronRenegade CiaraSuper Marine WorldMrFluffyJungle JambleTorranBoshi SkateparkLuke ChandlerFlowery GreenhouseSnikiCrystal PlainsSnikiUnderground SkyCaronDS DK PassZPLGBA Snow LandcpfusionVile IsleCitrusCTR N. Gin LabsMysterE99Headlong SkywayBCphotonMEGAKart69ChaosShadow23White GardenSpyKidBlockmannLuigiMRiidefiColour WonderlandSpyKidN64 Luigi RacewayzillyVolcanic ValleyMEGAKart69Sahara HideoutZPLJasperrGolden RSJungle GladeCitrusComet StarwayWiiLuigiShy Guy's MarketAtlasFestival TownWiiLuigiCherry Blossom GardenRenegade CiaraChaosShadow23Sky GroveSnikiTropical FactorySnikiCrystal DungeonSpyKidAquadrom StageSpyKidSnikiAbyssal RuinsChaosShadow23Medieval CastlegroundsJorisMKWkHacker35000vrIcepeak Mountain4TLPatiFloMaster35000vrGBA Sunset WildsChaosShadow23Thump Bump ForestSquireTurnboltN64 Toad's TurnpikeNintenYoshiN64 Wario StadiumzillyGCN Dry Dry DesertRiidefiGBA Riverside ParkChaosShadow23Siberian ChateauJasperrGolden RSTerronConcord TownRemyInTheSkyBig Express CitylgmbLost FortressMEGAKart69Sucht93aMushroom ValleyZPLColour CircuitOkinRinorocksDS Bowser CastleSnikiDS Shroom RidgeSnikiGBA Peach CircuitChaosShadow23GBA Rainbow RoadChaosShadow23Halogen HighwayBigOto2Item FirelandKeiichi1996Daisy HillsideAtlasPianta ShoreNateFoxWuhu IslandFunkyDude15RiidefiZachruffPinewood PathHollendSinister VaultSpyKidAmk528Wetland WoodsVulcanus2Sky High IslandJasperrGP Mario BeachSuperMario64DSDJ LowgeyBowser's Fiery FortressWexosAtlasGBA Bowser Castle 2ChaosShadow23SNES Ghost Valley 1zillySNES Koopa Beach 2LucaRainbow Road: Solar EditionBigOto2Castle of TimeMEGAKart69Thwomp SwampMysterE99Marble TowersSnikiHeart of ChinaWingcapmanKoopa Shell PipelandMysterE99Flying KingdomSpyKidLunar LightsSnikiGCN Rainbow RoadRiidefiTockSNES Rainbow RoadZPLBearStar Slopeigorseabra4TorranN64 Rainbow RoadTorranStar SlopeN64 Rainbow RoadVideoVideoChadderzupdatesChadderzMrBean35000vrBRSARChadderzrevo_kart.brsarChadderzMrBean35000vrChadderzChadderzCustom Tracks WorldwideChange Characters Between Wi-Fi RacesMrBean35000vrChadderzMrBean35000vrChadderzChadderzChadderzMrBean35000vrSpeedometerChadderzMax Lap Count ModifierSpeed ModifierMrBean35000vrCountdown ModeMrBean35000vrCustom Server SupportWiimmLeseratteItem RainMrBean35000vrChadderzLAN MultiplayerMrBean35000vrChadderzHigh Data RateMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzmkw-anaMrBean35000vrChadderzMy Stuff FolderMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrMario Kart 8MrBean35000vrChadderzEnhanced Ghost ReplayMrBean35000vrChadderzMrBean35000vrMrBean35000vrCTGP 2.8CTGP 4.4CTGP Revolution v1.0Custom Track WorldwideCTGP Revolution v1.01CTGP Revolution v1.02NintendoCountdown Modecustom server supportLAN MultiplayerItem RainHigh Data RateRiivolutionhereMrBean35000vrWebsiteCTGP 2.8CTGP 4.4CTGP Revolution v1.0CTGP Revolution v1.01CTGP Revolution v1.02Test CircleLava CanyonSNES Rainbow RoadGBA Rainbow RoadMushroom PeaksChomp ValleyIncendia CastleSix King LabyrinthDelfino Pier (Race)GCN Cookie Land (Race)SNES Mario Sandpit 3Wario's Space MineLuigi's Volcano RacewayN64 Bowser's SandcastleChadderzWebsiteSZS ModifierCToolsCTGP 2.8CTGP 4.4CTGP Revolution v1.0CTGP Revolution v1.01CTGP Revolution v1.02Test CircleLava CanyonSNES Rainbow RoadMushroom PeaksChomp ValleyIncendia CastleSix King LabyrinthCTMKF PC Fonthttp://wiki.tockdom.com/w/index.php?title=CTGP_Revolution&oldid=309626CategoriesCTGPDistributionArticleDiscussionView sourceHistoryCreate accountLog inMain pageDistributionsNews 2021MK8 WikiMK7 WikiWiiki RulesRecent changesRandom pageWiiki TeamMediaWiki helpWhat links hereRelated changesSpecial pagesPrintable versionPermanent linkPage informationPrivacy policyAbout Custom Mario KartDisclaimers"
+  },
+  {
+    "id": 252,
+    "title": ""
+  },
+  {
+    "id": 253,
+    "title": ""
+  },
+  {
+    "id": 254,
+    "title": ""
+  },
+  {
+    "id": 255,
+    "title": "BRSAR"
+  },
+  {
+    "id": 256,
+    "title": ""
+  },
+  {
+    "id": 257,
+    "title": ""
+  },
+  {
+    "id": 258,
+    "title": "navigationsearchTranslation ProjectMrBean35000vrChadderzOnline regionCountdown Modechadsoft.co.ukMEGAGoogle Drive1 Overview2 Media3 Tracks3.1 Hidden Tracks4 Special Features4.1 Channel Features4.2 Game Features5 Version Historycustom track distributionMrBean35000vrChadderzCTGP 2.8CTGP 4.4custom tracksPALNTSC-UNTSC-JMario Kart WiiCTGP Revolution v1.02two hidden tracksRiivolutionsome special featureshereCountdown Modecustom server supportNintendo WFCLAN MultiplayerItem RainHigh Data Ratetrack wishlistLuigi CircuitNintendoMoo Moo MeadowsNintendoMushroom GorgeNintendoToad's FactoryNintendoMario CircuitNintendoCoconut MallNintendoDK SummitNintendoWario's Gold MineNintendoDaisy CircuitNintendoKoopa CapeNintendoMaple TreewayNintendoGrumble VolcanoNintendoDry Dry RuinsNintendoMoonview HighwayNintendoBowser's CastleNintendoRainbow RoadNintendoGCN Peach BeachNintendoDS Yoshi FallsNintendoSNES Ghost Valley 2NintendoN64 Mario RacewayNintendoN64 Sherbet LandNintendoGBA Shy Guy BeachNintendoDS Delfino SquareNintendoGCN Waluigi StadiumNintendoDS Desert HillsNintendoGBA Bowser Castle 3NintendoN64 DK's Jungle ParkwayNintendoGCN Mario CircuitNintendoSNES Mario Circuit 3NintendoDS Peach GardensNintendoGCN DK MountainNintendoN64 Bowser's CastleNintendoDawn TownshipJiyuuGBA Cheep Cheep IslandChaosShadow23ASDF_CourseGuilmonSky ShrineChaosShadow23Sunset ForestHarumyneKevinVG207RiidefiJungle CliffWineKeiichi1996Kartwood CreekRich PettyTokukuMKWRiidefiHaunted GardensHollendGBA Broken PierChaosShadow23SNES Choco Island 2zillyRush City RunGredMegaTwin PeaksSucht93aDS Figure-8 CircuitQuajeek99SnikiSpectral StationMrFluffyDS Waluigi PinballYoshidude4Turbo YoshiGCN Daisy CruiserFunkyDude15RiidefiCotniGBA Bowser Castle 4ChaosShadow23Luncheon TourLuke ChandlerDS Wario StadiumZPLThe Rabbit HoleSucht93aSNES Mario Circuit 1ZPLSakura SanctuaryTerronJasperrSuperstar DystopiaSpyKidDS Cheep Cheep Beachsup3rsmash8GCN Yoshi CircuitTockSNES Mario Circuit 2ZPLN64 Royal RacewayZPLCandy CoasterSpyKidDS Airship FortressSnikiYoshi LagoonYoshillerSucht93aN64 Choco MountainTacoJoshSummer StarvilleSpyKidWaluigi's Motocrosswiimaster35000vrSNES Bowser Castle 2MKDasherGCN Bowser's CastleBaoulettesIncendia CastleMrBean35000vrChadderzMelting Magma MeleeSucht93aFinal GroundsMEGAKart69Pipe UnderworldBigOto2MEGAKart69Canyon RunGredMegaNew Moon ManorSnikiNightlife PartyWiiLuigiN64 Banshee BoardwalkzillyFishdom IslandBigOto2JasperrToad RacewayTorranSpike DesertSnikiDelfino IslandVulcanus2Six King LabyrinthMrBean35000vrChadderzGCN Luigi CircuitTockUnnamed ValleyScyeSucht93aVolcano CanyonMultimariokartdsUndiscovered OfflimitKeiichi1996Honeybee HideoutTacoJoshDesert FortJorisMKWRosalina's Snow World‎MysterE99Skipper93653DKR Star CityMewtwo2000SNES Donut Plains 3BearZPLSkyline AvenueSpyKidGCN Wario ColosseumTockMushroom PeaksMrBean35000vrChadderzSarasa KingdomNintenYoshiMario Castle RacewayZPLBriAutumn LeaveswaySpyKidRiidefiGCN Sherbet LandTockSNES Donut Plains 2LucaDS Tick-Tock ClockmaczkopetiQuaking Mad CliffsMrFluffyNeo Koopa CityAtlasInfernal PipeyardChaosShadow23Jungle RuinsMysterE99Envenom SnowstormLucaCTR Cortex CastleMysterE99GBA Ribbon RoadChaosShadow23DS Luigi's MansionTockWolf CastlegroundsSpyKidCastle of DarknessMEGAKart69NivurbiaSpyKidDS Mario CircuitZPLCave IslandWiiLuigiSnikiSpyKidDark Matter ShrineSnikiGBA Sky GardenChaosShadow23Glimmer Express TrainsSnikiGarden of DreamsJiyuuDesert Castle RacewaylgmbMelody SanctumSpyKidMusical CliffLucaGBA Cheese LandChaosShadow23Misty RuinsVulcanus2Stargaze SummitFervSea StadiumzatchiCalidae DesertBjörnN64 Kalimari DesertSnikiCoin HeavenTacoJoshKinoko Caveigorseabra4Sucht93aWingcapmanGCN Baby ParkmaczkopetiDesktop DashMysterE99GBA Bowser Castle 1ChaosShadow23Aura MetropolisSpyKidCTR Blizzard BluffMysterE99AquaniaSpyKidGBA Mario CircuitMysterE99RezwayTrent RezJefeSunset RidgeVulcanus2BigOto2Athletic RacewaySpyKidWarp Pipe IslandWingcapmanLuke ChandlerAbandoned BoardwalkChaosShadow23Renegade CiaraGothic CastleSpyKidDK RuinsWexosGBA Lakeside ParkChaosShadow23N64 Koopa Troopa BeachzillyCamp KartiganMrFluffyMushroom IslandBigOto2Inkling35000vrSnikiDesert Mushroom Ruins4TLPatiMysterE99GCN Mushroom CityRiidefiTockUnfinished Mario CircuitJiyuuSlot CircuitJefePiranha Plant PipelineAtlasLava LakeJorisMKWDragon Burial GroundsMultimariokartdsN64 Frappe SnowlandNintenYoshiGBA Luigi CircuitzillyWuhu MountainFunkyDude15WexosDreamworld CloudwaySpyKidHellado MountainHelloImYourMindChaosShadow23Renegade CiaraWindy WhirlSyst3msSuzuka CircuitlgmbForest CreekOkinDragonite's IslandSucht93aRiidefiLunar SpacewayBigOto2Fungal JungleTacoJoshGCN Mushroom BridgeTockYoshi's Woolly RacewayAidan190903ANoobDark Matter FortressJustinMagmatic SanctuaryZPLJasperr_tZJiyuu VillageJiyuuWindmill VillageChaosShadow23Rock Rock RidgeMrKoeikoeizillyChristmas CourtLuke ChandlerMansion of MadnessSucht93aBig Nature CitylgmbSADX Twinkle Circuitigorseabra4Daisy's PalaceVulcanus2JorisMKWAlpine PeakMysterE99Celestial RuinsChaosShadow23SNES Bowser Castle 1ChaosShadow23Luigi's IslandHarumyneZPLSNES Bowser Castle 3DasFragezeichenTockLava RoadFireLuigiCaronRenegade CiaraSuper Marine WorldMrFluffyJungle JambleTorranBoshi SkateparkLuke ChandlerFlowery GreenhouseSnikiCrystal PlainsSnikiUnderground SkyCaronDS DK PassZPLGBA Snow LandcpfusionVile IsleCitrusCTR N. Gin LabsMysterE99Headlong SkywayBCphotonMEGAKart69ChaosShadow23White GardenSpyKidBlockmannLuigiMRiidefiColour WonderlandSpyKidN64 Luigi RacewayzillyVolcanic ValleyMEGAKart69Sahara HideoutZPLJasperrGolden RSJungle GladeCitrusComet StarwayWiiLuigiShy Guy's MarketAtlasFestival TownWiiLuigiCherry Blossom GardenRenegade CiaraChaosShadow23Sky GroveSnikiTropical FactorySnikiCrystal DungeonSpyKidAquadrom StageSpyKidSnikiAbyssal RuinsChaosShadow23Medieval CastlegroundsJorisMKWkHacker35000vrIcepeak Mountain4TLPatiFloMaster35000vrGBA Sunset WildsChaosShadow23Thump Bump ForestSquireTurnboltN64 Toad's TurnpikeNintenYoshiN64 Wario StadiumzillyGCN Dry Dry DesertRiidefiGBA Riverside ParkChaosShadow23Siberian ChateauJasperrGolden RSTerronConcord TownRemyInTheSkyBig Express CitylgmbLost FortressMEGAKart69Sucht93aMushroom ValleyZPLColour CircuitOkinRinorocksDS Bowser CastleSnikiDS Shroom RidgeSnikiGBA Peach CircuitChaosShadow23GBA Rainbow RoadChaosShadow23Halogen HighwayBigOto2Item FirelandKeiichi1996Daisy HillsideAtlasPianta ShoreNateFoxWuhu IslandFunkyDude15RiidefiZachruffPinewood PathHollendSinister VaultSpyKidAmk528Wetland WoodsVulcanus2Sky High IslandJasperrGP Mario BeachSuperMario64DSDJ LowgeyBowser's Fiery FortressWexosAtlasGBA Bowser Castle 2ChaosShadow23SNES Ghost Valley 1zillySNES Koopa Beach 2LucaRainbow Road: Solar EditionBigOto2Castle of TimeMEGAKart69Thwomp SwampMysterE99Marble TowersSnikiHeart of ChinaWingcapmanKoopa Shell PipelandMysterE99Flying KingdomSpyKidLunar LightsSnikiGCN Rainbow RoadRiidefiTockSNES Rainbow RoadZPLBearStar Slopeigorseabra4TorranN64 Rainbow RoadTorranStar SlopeN64 Rainbow RoadVideoVideoChadderzupdatesChadderzMrBean35000vrBRSARChadderzrevo_kart.brsarChadderzMrBean35000vrChadderzChadderzCustom Tracks WorldwideChange Characters Between Wi-Fi RacesMrBean35000vrChadderzMrBean35000vrChadderzChadderzChadderzMrBean35000vrSpeedometerChadderzMax Lap Count ModifierSpeed ModifierMrBean35000vrCountdown ModeMrBean35000vrCustom Server SupportWiimmLeseratteItem RainMrBean35000vrChadderzLAN MultiplayerMrBean35000vrChadderzHigh Data RateMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzmkw-anaMrBean35000vrChadderzMy Stuff FolderMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrChadderzMrBean35000vrMario Kart 8MrBean35000vrChadderzEnhanced Ghost ReplayMrBean35000vrChadderzMrBean35000vrMrBean35000vrCTGP 2.8CTGP 4.4CTGP Revolution v1.0Custom Track WorldwideCTGP Revolution v1.01CTGP Revolution v1.02NintendoCountdown Modecustom server supportLAN MultiplayerItem RainHigh Data RateRiivolutionhereMrBean35000vrWebsiteCTGP 2.8CTGP 4.4CTGP Revolution v1.0CTGP Revolution v1.01CTGP Revolution v1.02Test CircleLava CanyonSNES Rainbow RoadGBA Rainbow RoadMushroom PeaksChomp ValleyIncendia CastleSix King LabyrinthDelfino Pier (Race)GCN Cookie Land (Race)SNES Mario Sandpit 3Wario's Space MineLuigi's Volcano RacewayN64 Bowser's SandcastleChadderzWebsiteSZS ModifierCToolsCTGP 2.8CTGP 4.4CTGP Revolution v1.0CTGP Revolution v1.01CTGP Revolution v1.02Test CircleLava CanyonSNES Rainbow RoadMushroom PeaksChomp ValleyIncendia CastleSix King LabyrinthCTMKF PC Fonthttp://wiki.tockdom.com/w/index.php?title=CTGP_Revolution&oldid=309626CategoriesCTGPDistributionArticleDiscussionView sourceHistoryCreate accountLog inMain pageDistributionsNews 2021MK8 WikiMK7 WikiWiiki RulesRecent changesRandom pageWiiki TeamMediaWiki helpWhat links hereRelated changesSpecial pagesPrintable versionPermanent linkPage informationPrivacy policyAbout Custom Mario KartDisclaimers"
+  },
+  {
+    "id": 259,
+    "title": ""
+  },
+  {
+    "id": 260,
+    "title": "Custom Tracks Worldwide"
+  },
+  {
+    "id": 261,
+    "title": "Change Characters Between Wi-Fi Races"
+  },
+  {
+    "id": 262,
+    "title": ""
+  },
+  {
+    "id": 263,
+    "title": ""
+  },
+  {
+    "id": 264,
+    "title": ""
+  },
+  {
+    "id": 265,
+    "title": ""
+  },
+  {
+    "id": 266,
+    "title": ""
+  },
+  {
+    "id": 267,
+    "title": "Speedometer"
+  },
+  {
+    "id": 268,
+    "title": "Max Lap Count Modifier"
+  },
+  {
+    "id": 269,
+    "title": "Speed Modifier"
+  },
+  {
+    "id": 270,
+    "title": "Countdown Mode"
+  },
+  {
+    "id": 271,
+    "title": "Custom Server Support"
+  },
+  {
+    "id": 272,
+    "title": "Item Rain"
+  },
+  {
+    "id": 273,
+    "title": "LAN Multiplayer"
+  },
+  {
+    "id": 274,
+    "title": "High Data Rate"
+  },
+  {
+    "id": 275,
+    "title": ""
+  },
+  {
+    "id": 276,
+    "title": ""
+  },
+  {
+    "id": 277,
+    "title": ""
+  },
+  {
+    "id": 278,
+    "title": ""
+  },
+  {
+    "id": 279,
+    "title": ""
+  },
+  {
+    "id": 280,
+    "title": ""
+  },
+  {
+    "id": 281,
+    "title": ""
+  },
+  {
+    "id": 282,
+    "title": ""
+  },
+  {
+    "id": 283,
+    "title": ""
+  },
+  {
+    "id": 284,
+    "title": ""
+  },
+  {
+    "id": 285,
+    "title": "My Stuff Folder"
+  },
+  {
+    "id": 286,
+    "title": ""
+  },
+  {
+    "id": 287,
+    "title": ""
+  },
+  {
+    "id": 288,
+    "title": ""
+  },
+  {
+    "id": 289,
+    "title": ""
+  },
+  {
+    "id": 290,
+    "title": ""
+  },
+  {
+    "id": 291,
+    "title": "Enhanced Ghost Replay"
+  },
+  {
+    "id": 292,
+    "title": ""
+  },
+  {
+    "id": 293,
+    "title": ""
+  }
+]
