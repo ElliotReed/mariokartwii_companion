@@ -1,29 +1,32 @@
 :root {
   /* Colors */
   --white: #f7f7f7;
-  --blue: #2fb7e1;
+  --blue: #00AEEF;
   --blue-dark: #2aa6cc;
   --blueAlpha: #2fb7e1c5;
   --gold: rgb(158, 134, 0);
   --silver: #a6b8c2;
   --black: #000000;
   --red: #d85555;
-
+  --danger: #d85555;
+  --success: #60d855;
+  --rgbBlack: 20, 20, 20;
   /* Box model */
   --padding: 1rem;
-  --paddingBox: 0.76rem 1rem;
+  --paddingBox: 0.49rem 1rem;
+  --padding-small: 0.49rem;
   --margin: 1rem;
   --box-shadow: 3px 3px 8px #00000088;
   --box-shadow__inner: 0 0 0.5rem 1px rgb(0, 0, 0, 0.3) inset;
-  --border-size: 8px;
+  --border-size: 4px;
   --border-radius: 10px;
   --borderRadius_small: 3px;
-  --background-wii-repeat: repeating-linear-gradient(
-    var(--black),
-    var(--black) 0.125rem,
-    #222222 0.125rem,
-    #222222 0.25rem
-  );
+  --background-wii-repeat: repeating-linear-gradient(var(--black),
+      var(--black) 0.125rem,
+      #222222 0.125rem,
+      #222222 0.25rem);
+
+  /* Sizes    */
 
   --scrollbarForegroundVerticle: var(--blue);
   --scrollbarBackground: var(--white);
@@ -32,11 +35,93 @@
   --fade-in: fade-in 600ms ease-in-out;
 }
 
+/* #region New Reset */
+/***
+    The new CSS reset - version 1.6.1 (last updated 25.5.2022)
+    GitHub page: https://github.com/elad2412/the-new-css-reset
+***/
+
+/*
+    Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
+    - The "symbol *" part is to solve Firefox SVG sprite bug
+ */
+*:where(:not(html, iframe, canvas, img, svg, video):not(svg *, symbol *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Reapply the pointer cursor for anchor tags */
+a,
+button {
+  cursor: revert;
+}
+
+/* Remove list styles (bullets/numbers) */
+ol,
+ul,
+menu {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+/* minimum style to allow to style meter element */
+meter {
+  -webkit-appearance: revert;
+  appearance: revert;
+}
+
+/* reset default text opacity of input placeholder */
+::placeholder {
+  color: unset;
+}
+
+/* fix the feature of 'hidden' attribute.
+ display:revert; revert to element instead of attribute */
+:where([hidden]) {
+  display: none;
+}
+
+/* revert for bug in Chromium browsers
+ - fix for the content editable attribute will work properly. */
+:where([contenteditable]:not([contenteditable="false"])) {
+  -moz-user-modify: read-write;
+  -webkit-user-modify: read-write;
+  overflow-wrap: break-word;
+  -webkit-line-break: after-white-space;
+}
+
+/* apply back the draggable feature - exist only in Chromium and Safari */
+:where([draggable="true"]) {
+  -webkit-user-drag: element;
+}
+
+/* #endregion New Reset */
+
 /* #region Document */
 html {
-  font-size: 16px;
+  font-size: 100%;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
 }
 
 /* tablet */
@@ -55,11 +140,13 @@ html {
 
 html,
 body {
+  width: 100%;
+  min-height: 100vh;
   overflow-x: hidden;
+
 }
 
 body {
-  width: 100vw;
   margin: 0;
   padding: 0;
   color: var(--white);
@@ -67,16 +154,20 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 1rem; /* Mostly for vertical scrollbars */
+  width: 0.76rem;
+  /* Mostly for vertical scrollbars */
 }
+
 body::-webkit-scrollbar-thumb {
   border-radius: var(--borderRadius);
   background: var(--scrollbarForegroundVerticle);
 }
+
 body::-webkit-scrollbar-thumb:hover {
   border: 1px solid var(--scrollbarBackground);
   background: var(--scrollbarHover);
 }
+
 body::-webkit-scrollbar-track {
   box-shadow: inset 1px 1px 8px #2222223f, inset -1px -1px 8px #2222223f;
   background: var(--scrollbarBackground);
@@ -90,26 +181,6 @@ body::-webkit-scrollbar-track {
   -ms-text-size-adjust: 100%;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
-
-.capitalize {
-  text-transform: capitalize;
-}
-
-button > * {
-  pointer-events: none;
-}
-
-main {
-  animation: var(--fade-in);
-}
-/* #endregion Document */
-
-/* #region General Styles */
 .background {
   position: absolute;
   background-image: url("../images/Mario_Kart_Tour-w480.jpg");
@@ -118,15 +189,74 @@ main {
   background-attachment: fixed;
   background-color: bisque;
 }
+
 @media screen and (min-width: 768px) {
   .background {
     background-image: url("../images/Mario_Kart_Tour-w800.jpg");
   }
 }
+
 @media screen and (min-width: 1080px) {
   .background {
     background-image: url("../images/Mario_Kart_Tour.jpg");
   }
+}
+
+/* #endregion Document */
+
+/* #region General Styles */
+button {
+  cursor: pointer;
+}
+
+button > * {
+  pointer-events: none;
+}
+
+form label {
+  display: block;
+  font-size: .76rem;
+  margin-top: var(--margin);
+}
+
+form input,
+form select {
+  /* display: block; */
+  border: 1px solid var(--blue);
+  border-radius: var(--borderRadius_small);
+  padding: var(--paddingBox);
+}
+
+form input::placeholder {
+  opacity: .49;
+}
+
+input[type='submit'] {
+  background: var(--blue);
+  color: var(--white);
+}
+
+input[type='submit']:hover {
+  background: var(--blue-dark);
+  cursor: pointer;
+}
+
+form p {
+  margin-bottom: var(--margin);
+}
+
+form p input {
+  margin-bottom: 0;
+}
+
+form .helptext {
+  font-size: .76rem;
+}
+
+
+
+main {
+  /* animation: var(--fade-in); */
 }
 
 .container {
@@ -137,40 +267,74 @@ main {
   background-color: transparent;
 }
 
-.game-panel {
+/* .game-panel {
   margin: 1rem 0;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
   padding: 1rem;
-  background: linear-gradient(
-    to bottom,
-    #f7f7f7ee 10%,
-    var(--white) 25%,
-    var(--white) 75%,
-    #f7f7f7ee 90%
-  );
+  background: linear-gradient(to bottom,
+      #f7f7f7ee 10%,
+      var(--white) 25%,
+      var(--white) 75%,
+      #f7f7f7ee 90%);
+} */
+.offscreen-left {
+  transform: translateX(-100%);
+}
+
+.panel__translucent-dark {
+  background-color: rgb(var(--rgbBlack), .76);
+}
+
+.panel {
+  color: var(--blue);
+  background: var(--white);
+}
+
+.container__dark {
+  margin: 1rem 0;
+  animation: var(--fade-in), var(--animate-background-wii-repeat);
+  min-height: 7rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  border: var(--border-size) solid var(--blue);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  background: var(--background-wii-repeat);
+  color: var(--white);
+  overflow: hidden;
+}
+
+.panel__gold {
+  padding: var(--paddingBox);
+  border: 3px solid var(--gold);
+  background: var(--background-wii-repeat);
+  text-shadow: -2px -2px 0 var(--gold), 2px -2px 0 var(--gold),
+    -2px 2px 0 var(--gold), 2px 2px 0 var(--gold);
+  animation: wii-background 1s linear infinite,
+    border-glow 600ms ease-in-out infinite alternate-reverse;
 }
 
 .race-stripe-right {
   box-shadow: -3px 3px 0 #00000044;
   border-radius: var(--borderRadius_small);
-  background: linear-gradient(
-    to right,
-    var(--blue) 50%,
-    var(--blueAlpha) 68%,
-    transparent
-  );
+  background: linear-gradient(to right,
+      var(--blue) 50%,
+      var(--blueAlpha) 68%,
+      transparent);
 }
 
 .race-stripe-left {
   box-shadow: 3px 3px 0 #00000044;
   border-radius: var(--borderRadius_small);
-  background: linear-gradient(
-    to left,
-    var(--blue) 50%,
-    var(--blueAlpha) 75%,
-    transparent
-  );
+  background: linear-gradient(to left,
+      var(--blue) 50%,
+      var(--blueAlpha) 75%,
+      transparent);
   text-align: right;
 }
 
@@ -182,18 +346,18 @@ main {
   width: var(--width-height);
   height: var(--width-height);
   box-shadow:
-    /* inner edge */ var(--box-shadow__inner),
-    /* button shadow */ 0px 0.25rem 0.25em 0 rgba(0, 0, 0, 0.2);
+    /* inner edge */
+    var(--box-shadow__inner),
+    /* button shadow */
+    0px 0.25rem 0.25em 0 rgba(0, 0, 0, 0.2);
   outline: none;
   border: var(--border-size) solid var(--blue);
   border-radius: 50%;
-  background: linear-gradient(
-    to bottom,
-    #f7f7f7,
-    #f7f7f7 40%,
-    white 80%,
-    #e1eef1
-  );
+  background: linear-gradient(to bottom,
+      #f7f7f7,
+      #f7f7f7 40%,
+      white 80%,
+      #e1eef1);
   font-family: inherit;
   font-weight: 800;
   text-transform: capitalize;
@@ -203,19 +367,18 @@ main {
 
 .wii-button:hover {
   border: var(--border-size) solid var(--blue-dark);
-  background: linear-gradient(
-    to bottom,
-    #fcfcfc,
-    #fcfcfc 40%,
-    white 80%,
-    #b5c8ce
-  );
+  background: linear-gradient(to bottom,
+      #fcfcfc,
+      #fcfcfc 40%,
+      white 80%,
+      #b5c8ce);
 }
 
 .wii-button:active {
   transform: translateY(0.25em);
   box-shadow:
-    /* inner edge */ 0 0 0.5rem 1px rgb(0, 0, 0, 0.4) inset;
+    /* inner edge */
+    0 0 0.5rem 1px rgb(0, 0, 0, 0.4) inset;
 }
 
 .wii-button:focus {
@@ -223,19 +386,13 @@ main {
 }
 
 .btn {
-  box-shadow:
-    /* inner edge */ var(--box-shadow__inner),
-    /* button shadow */ 0px 0.25rem 0.25em 0 rgba(0, 0, 0, 0.2);
+  box-shadow: var(--box-shadow__inner);
+  /* inner edge */
+
   outline: none;
   border: var(--border-size) solid var(--blue);
   border-radius: var(--border-radius);
-  background: linear-gradient(
-    to bottom,
-    #f7f7f7,
-    #f7f7f7 40%,
-    white 80%,
-    #e1eef1
-  );
+  background: var(--white);
   padding: var(--paddingBox);
   color: var(--blue-dark);
   font-weight: 800;
@@ -247,18 +404,151 @@ main {
 a.btn {
   text-decoration: none;
 }
+
 /* #endregion  General Styles */
 
-/* #region navbar  */
-
-.nav-secondary {
-  display: flex;
-  gap: var(--margin);
-  justify-content: center;
-}
-/* #endregion navbar  */
 
 /* #region Component Styles */
+/* #region navbar  */
+header#banner {
+  width: 100%;
+}
+
+.nav__main {
+  display: flex;
+  justify-content: center;
+}
+
+.nav__mobile {
+  position: absolute;
+  left: 0;
+}
+
+.nav__btn-toggle {
+  padding: var(--padding-small);
+}
+
+.nav__mobile svg {
+  width: 2rem;
+  height: 2rem;
+  fill: var(--blue);
+}
+
+.nav__mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  transition: transform .29s ease-in-out;
+  z-index: 99;
+}
+
+.nav__mobile-inner {
+  width: 76%;
+  min-height: 100%;
+  z-index: 100;
+}
+
+.nav__logo {
+  max-width: 29%;
+  margin: calc(var(--margin) * .76) 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav__logo {
+    max-width: 49%;
+  }
+}
+
+.nav__user {
+  position: absolute;
+  right: 0;
+  padding: var(--padding-small);
+}
+
+.nav__user-btn-group svg {
+  display: none;
+}
+
+@media screen and (min-width: 420px) {
+  .nav__user-btn-group svg {
+    display: initial;
+  }
+}
+
+.nav__user-toggle {
+  --width-height: 3.29rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: var(--width-height);
+  height: var(--width-height);
+  padding: 0;
+  border-radius: 50%;
+}
+
+.nav__user-chevron {
+  fill: var(--blue);
+}
+
+.nav__user-avatar {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav__user-menu {
+  position: absolute;
+  top: 4rem;
+  /* equal offset as .nav__user*/
+  right: var(--padding-small);
+  width: 8rem;
+}
+
+.nav__user-menu li {
+  padding: var(--paddingBox);
+  border-bottom: 1px solid var(--blue);
+}
+
+.nav__user-menu li:last-child {
+  border-bottom: none;
+}
+
+.nav__user-menu li span {
+  font-size: small;
+}
+
+.nav__user-auth {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: 10ch;
+  font-size: small;
+  text-align: end;
+}
+
+@media screen and (min-width: 600px) {
+  .nav__user-auth {
+    max-width: initial;
+    margin-right: -.49rem;
+  }
+}
+
+.nav__user-auth li {
+  padding: var(--paddingBox);
+  border-radius: var(--border-radius);
+}
+
+.nav__user-auth li:first-child {
+  background-color: var(--blue);
+}
+
+.nav__user-auth li:last-child a {
+  text-decoration: underline;
+}
+
+/* #endregion navbar  */
+
 #to-top {
   z-index: 100;
   position: fixed;
@@ -274,17 +564,6 @@ a.btn {
     right: 24px;
     bottom: 12px;
   }
-}
-
-.logo-wrapper {
-  text-align: center;
-  border: 1px solid transparent;
-  margin: var(--margin);
-}
-.logo {
-  /* width: 76%; */
-  /* max-width: 490px; */
-  /* padding: 1rem 0; */
 }
 
 /* #region Score Card */
@@ -324,12 +603,10 @@ a.btn {
 
 .cup-stats {
   border-radius: var(--border-radius);
-  background: linear-gradient(
-    to bottom,
-    var(--blue) 40%,
-    var(--blueAlpha) 55%,
-    var(--blue) 70%
-  );
+  background: linear-gradient(to bottom,
+      var(--blue) 40%,
+      var(--blueAlpha) 55%,
+      var(--blue) 70%);
   text-transform: capitalize;
 }
 
@@ -380,6 +657,7 @@ a.btn {
 #scoreboard-controls button > figure {
   margin: 0;
 }
+
 /* #endregion Score Card */
 
 /* #region Racers Picker */
@@ -431,6 +709,7 @@ a.btn {
     flex-grow: 2;
   }
 }
+
 /* #endregion Racers Picker */
 
 /* #region Cup Picker */
@@ -454,6 +733,7 @@ a.btn {
   text-transform: capitalize;
   animation: var(--fade-in);
 }
+
 /* #endregion Cup Picker */
 
 /* #region Race Header */
@@ -498,6 +778,7 @@ a.btn {
   line-height: 3rem;
   font-size: 3rem;
 }
+
 /* #endregion Race Header */
 
 /* #region Cup */
@@ -505,13 +786,11 @@ a.btn {
   margin: 1rem 0;
   box-shadow: var(--box-shadow);
   border-radius: var(--border-radius);
-  background: linear-gradient(
-    to bottom,
-    #222222ee 10%,
-    var(--black) 25%,
-    var(--black) 75%,
-    #222222ee 90%
-  );
+  background: linear-gradient(to bottom,
+      #222222ee 10%,
+      var(--black) 25%,
+      var(--black) 75%,
+      #222222ee 90%);
   backdrop-filter: blur(10px);
   padding: 1em;
   text-align: center;
@@ -557,6 +836,7 @@ a.btn {
   font-weight: normal;
   text-align: right;
 }
+
 /* #endregion Cup */
 
 /* #region Tracks */
@@ -576,6 +856,7 @@ a.btn {
   animation: wii-background 1s linear infinite,
     border-glow 600ms ease-in-out infinite alternate-reverse;
 }
+
 /* #endregion Tracks */
 
 /* #region Loader */
@@ -588,13 +869,11 @@ a.btn {
   left: 0;
   bottom: 0;
   right: 0;
-  background: linear-gradient(
-    to bottom,
-    #222222aa 10%,
-    #222222cc 25%,
-    #222222cc 75%,
-    #222222aa 90%
-  );
+  background: linear-gradient(to bottom,
+      #222222aa 10%,
+      #222222cc 25%,
+      #222222cc 75%,
+      #222222aa 90%);
 }
 
 .loader,
@@ -603,6 +882,7 @@ a.btn {
   width: 10em;
   height: 10em;
 }
+
 .loader {
   margin: 60px auto;
   font-size: 10px;
@@ -624,29 +904,78 @@ a.btn {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
 @keyframes load8 {
   0% {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
+
 /* #endregion Loader */
 /* #endregion Component Styles */
+
+/* #region Utility styles */
+.capitalize {
+  text-transform: capitalize;
+}
+
+.max-width {
+  max-width: 40rem;
+}
+
+.border-blue {
+  border: var(--border-size) solid var(--blue);
+  border-radius: var(--border-radius);
+}
+
+.padding {
+  padding: var(--padding);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.veil {
+  visibility: hidden;
+}
+
+[data-reply-true] {
+  background-color: var(--success)
+}
+
+[data-reply-false] {
+  background-color: var(--danger)
+}
+
+/* #endregion Utility styles */
 
 /* #region Animations */
 @keyframes border-glow {
   from {
     box-shadow: 1px 1px 10px var(--gold);
   }
+
   to {
     box-shadow: -1px -1px 10px var(--gold);
   }
@@ -656,6 +985,7 @@ a.btn {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 100;
   }
@@ -665,8 +995,10 @@ a.btn {
   from {
     background-position: 0 0;
   }
+
   to {
     background-position: 0 -0.5rem;
   }
 }
+
 /* #endregion Animations */

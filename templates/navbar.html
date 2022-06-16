@@ -1,41 +1,85 @@
 {% load static %}
 
 <header id="banner">
+  <div class="nav__main">
 
-  <section class="logo-wrapper">
-    <a href="{% url 'base:index' %}">
+    <aside class="nav__mobile">
+      <button class="nav__btn-toggle" data-mobile-menu-toggle>
+        <svg viewBox="0 0 100 80" width="40" height="40">
+          <rect width="100" height="16" rx="10"></rect>
+          <rect y="30" width="100" height="16" rx="10"></rect>
+          <rect y="60" width="100" height="16" rx="10"></rect>
+        </svg>
+      </button>
+
+      <div class="offscreen-left nav__mobile-menu panel__translucent-dark" data-mobile-menu>
+        <div class="nav__mobile-inner panel">
+          <nav>
+            <ul class="">
+              {% if request.user.is_authenticated %}
+              <li><a href="{% url 'timetracker:wii-record' %}" class="link scraper">Record Wii Time</a></li>
+              {% endif %}
+              <li><a href="{% url 'timetracker:index' %}" class="link scraper">Time Tracker</a></li>
+              {% if request.user.is_superuser %}
+              <li><a href="{% url 'scraper:index' %}" class="link scraper">Scraper</a></li>
+              {% endif %}
+              <li><a href="{% url 'base:characters' %}" class="link">characters</a></li>
+              <li><a href="{% url 'base:vehicles' %}" class="link">vehicles</a></li>
+              <li><a href="{% url 'base:game-modes' %}" class="link">game modes</a></li>
+              <li><a href="{% url 'base:engine-classes' %}" class="link">engine classes</a></li>
+              <li><a href="{% url 'base:wii' %}" class="link">Wii</a></li>
+              <li><a href="{% url 'base:ctgp' %}" class="link">CTGP Revolution</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </aside>
+
+    <a class="nav__logo" href="{% url 'base:index' %}">
       <picture>
         <source srcset="{%  static 'images/Mario_Kart_Wii_Logo-150w.png' %}" media="(max-width: 340px)">
         <source srcset="{%  static 'images/Mario_Kart_Wii_Logo-300w.png' %}" media="(max-width: 1080px)">
-        <img class="logo" src="{%  static 'images/Mario_Kart_Wii_Logo.png' %}" />
+        <img src="{%  static 'images/Mario_Kart_Wii_Logo.png' %}" />
       </picture>
     </a>
-  </section>
 
-  <!-- <form class="banner__search" method="GET" action="{% url 'base:index' %}">
+    <!-- <form class="banner__search" method="GET" action="{% url 'base:index' %}">
     <input type="text" name="q" placeholder="Search Cups or Tracks..." />
   </form> -->
 
-  {% if request.user.is_authenticated %}
-  <section class="user">
-    <img src="{% static 'images/characters/' %}{{user.avatar}}" />
-    <a href="{% url 'user:profile' user.id %}">{{user.username}}</a>
-    <a href="{% url 'user:logout' %}">Sign out</a>
-    {% else %}
-    <a href="{% url 'user:login' %}">Login</a>
-    <a href="{% url 'user:register' %}">Register</a>
-    <hr>
-    {% endif %}
-  </section>
+    <section class="nav__user">
 
-  <section class="nav-secondary">
-    {% if request.user.is_superuser %}
-    <a href="{% url 'scraper:index' %}" class="btn">Scraper</a>
-    {% endif %}
+      {% if request.user.is_authenticated %}
+      <div class="nav__user-btn-group">
+        <button data-menu-toggle>
+          <div class="btn nav__user-toggle">
+            {% if request.user.avatar %}
+            <img class="nav__user-avatar" src="{% static 'images/characters/' %}{{request.user.avatar.image}}" />
+            {% else %}
+            <img class="nav__user-avatar" src="{% static 'images/characters/avatar.svg' %}" />
+            {% endif %}
+          </div>
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 32 32">
+            <title>chevron-down</title>
+            <path class="nav__user-chevron" d="M16 21l-13-13h-3l16 16 16-16h-3l-13 13z"></path>
+          </svg>
+        </button>
+      </div>
 
-    <a href="{% url 'base:ctgp' %}" class="btn">CTGP Revolution</a>
-    <a href="{% url 'base:wii' %}" class="btn">Wii</a>
-    <a href="{% url 'base:vehicles' %}" class="btn">vehicles</a>
-    <a href="{% url 'base:characters' %}" class="btn">characters</a>
-  </section>
+      <ul class="nav__user-menu veil panel border-blue" data-user-menu>
+        <li><span>Signed is as</span> {{user.username}}</li>
+        <li><a href="{% url 'user:profile' user.id %}">Profile</a></li>
+        <li><a href="{% url 'user:logout' %}">Sign out</a></li>
+      </ul>
+
+      {% else %}
+      <ul class="nav__user-auth">
+        <li><a href="{% url 'user:login' %}">Sign In</a></li>
+        <li><a href="{% url 'user:register' %}">Create Account</a></li>
+      </ul>
+      {% endif %}
+
+    </section>
+  </div>
+
 </header>

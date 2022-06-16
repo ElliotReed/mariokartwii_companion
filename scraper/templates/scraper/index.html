@@ -9,9 +9,11 @@
   <section class="nav-secondary">
 
     {% if request.user.is_superuser %}
-    <a href="{% url 'scraper:characters' %}" class="btn">Scrape characters</a>
-    <a href="{% url 'scraper:vehicles' %}" class="btn">Scrape vehicles</a>
-    <a href="{% url 'scraper:wii' %}" class="btn">Scrape Wii cups</a>
+    <a href="{% url 'scraper:characters' %}" class="btn">Load characters</a>
+    <a href="{% url 'scraper:vehicles' %}" class="btn">Load vehicles</a>
+    <a href="{% url 'scraper:game-modes' %}" class="btn">Load game modes</a>
+    <a href="{% url 'scraper:engine-classes' %}" class="btn">Load engine classes</a>
+    <a href="{% url 'scraper:wii' %}" class="btn">Load Wii cups</a>
     <a href="{% url 'scraper:ctgp' %}" class="btn">Scrape CTGP cups</a>
     {% endif %}
   </section>

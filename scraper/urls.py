@@ -9,5 +9,7 @@ urlpatterns = [
     path('wii/', views.wii, name='wii'),
     path('vehicles/', views.vehicles, name='vehicles'),
     path('characters/', views.characters, name='characters'),
+    path('game-modes/', views.gameModes, name='game-modes'),
+    path('engine-classes/', views.engineClasses, name='engine-classes'),
 
 ]

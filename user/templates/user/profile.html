@@ -1,5 +1,4 @@
 {% extends 'main.html' %}
-
 {% load static %}
 
 
@@ -7,15 +6,24 @@
 <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/vehicles.css' %}">
 {% endblock styles %}
 
-{% block title %}
-Profile
-{% endblock title %}
+{% block title %}Profile{% endblock title %}
 
 {% block content %}
 <main class="container">
   <section class="racer-container">
 
     <div class="race-card">
+      {% if request.user == user %}
+      <div class="image-container">
+        <img src="{% static 'images/characters/' %}{{user.avatar.image}}" />
+      </div>
+      <form action="" method="POST">
+        {% csrf_token %}
+        {{form}}
+        <input type="submit" value="Save" />
+      </form>
+
+      {% else %}
 
       <div class="image-container">
         <img src="{% static 'images/characters/' %}{{user.avatar}}" />
@@ -26,7 +34,7 @@ Profile
       <p>
         {{user.bio}}
       </p>
-
+      {% endif %}
     </div>
 
   </section>

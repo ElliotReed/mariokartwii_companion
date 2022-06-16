@@ -5,9 +5,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="{% static 'styles/vehicles.css' %}">
 {% endblock styles %}
 
-{% block title %}
-Mario Kart Wii Vehicles
-{% endblock title %}
+{% block title %}Vehicles{% endblock title %}
 
 {% block content %}
 <main class="container">
@@ -21,7 +19,7 @@ Mario Kart Wii Vehicles
       <img src="{% static 'images/vehicles/' %}{{vehicle.image}}" alt={{vehicle.label}} />
 
       <h2>{{vehicle.label}}</h2>
-      <p>Type: {{vehicle.type}}</p>
+      <p>Type: {{vehicle.vehicle_type}}</p>
       <p>Class: {{vehicle.vehicle_class}}</p>
     </div>
     <aside>
@@ -41,5 +39,5 @@ Mario Kart Wii Vehicles
   </section>
   {% endfor %}
 
-  {% endblock content %}
 </main>
+{% endblock content %}

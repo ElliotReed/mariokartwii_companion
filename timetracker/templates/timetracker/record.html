@@ -1,0 +1,58 @@
+{% extends 'main.html' %}
+{% load static %}
+{% load tracktime_format %}
+
+{% block title %}
+Record Time
+{% endblock %}
+
+{% block content %}
+<main class="container">
+  <h1>Record Wii Time</h1>
+
+  {% if track %}
+  <aside>
+    <p data-reply-{{reply.is_new}}>{{reply.message}}</p>
+    <ul class="tracks">
+      <li>
+        <p>{{track.track.label}} <span>{{track.game_mode.label}}</span><span>{{track.engine_class.label}}</span>
+          &nbsp;<span>{{track.time|duration}}</span></p>
+        <p><img src="{% static 'images/characters/' %}{{track.character.image}}" /><img
+            src="{% static 'images/vehicles/' %}{{track.vehicle.image}}" />
+          <span>{{track.created_at}}</span> <span>{{track.user.username}}</span>
+        </p>
+      </li>
+    </ul>
+  </aside>
+  {% endif %}
+
+  <form action="" method="POST" class="panel padding border-blue">
+    {%csrf_token %}
+
+    {% if form.errors %}
+    {% for error in form.non_field_errors%}
+    {{error}}
+    {% endfor %}
+    {% endif %}
+
+    {{form}}
+    <input type="submit" value="Submit">
+  </form>
+
+  <ul class="tracks">
+    {% for track in tracks %}
+    <li>
+      <p>{{track.track.label}} <span>{{track.mode.label}}</span><span>{{track.engine_class.label}}</span>
+        &nbsp;<span>{{track.time|duration}}</span></p>
+      <p><img src="{% static 'images/characters/' %}{{track.character.image}}" /><img
+          src="{% static 'images/vehicles/' %}{{track.vehicle.image}}" />
+        <span>{{track.created_at}}</span>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
+
+
+
+{% endblock %}

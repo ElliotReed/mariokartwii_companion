@@ -2,7 +2,7 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from bs4 import BeautifulSoup
 import requests
-from base.models import Character, CharacterBonus, Vehicle, VehicleStat, CTGPCup, CTGPTrack, WiiCup, WiiTrack
+from base.models import Character, CharacterBonus, Vehicle, VehicleStat, CTGPCup, CTGPTrack, WiiCup, WiiTrack, GameMode, EngineClass
 
 import json
 
@@ -21,7 +21,7 @@ def add_vehicles_to_db(data):
         newStats.save()
 
         newVehicle, created = Vehicle.objects.get_or_create(
-            label=vehicle['label'], stats=newStats, vehicle_class=vehicle['class'], type=vehicle['type'], image=vehicle['image'])
+            label=vehicle['label'], stats=newStats, vehicle_class=vehicle['class'], vehicle_type=vehicle['type'], image=vehicle['image'])
 
         newVehicle.save()
 
@@ -133,7 +133,7 @@ def wiiScraper():
     html = requests.get(url_wii).text
     soup = BeautifulSoup(html, 'lxml')
     tables = soup.find_all('table', class_='wikitable')
-    print(tables[4])
+    # print(tables[4])
 
 
 def index(request):
@@ -162,6 +162,23 @@ def vehicles(request):
     return redirect('/vehicles')
 
 
+def gameModes(request):
+    mode_file = open("data/gameModeData.json", 'r')
+    mode_json = json.loads(mode_file.read())
+    for mode in mode_json:
+        newMode, created = GameMode.objects.get_or_create(label=mode['label'])
+    return redirect('/game-modes')
+
+
+def engineClasses(request):
+    engine_file = open("data/engineClassData.json", 'r')
+    engine_json = json.loads(engine_file.read())
+    for engine in engine_json:
+        new_engine_class, created = EngineClass.objects.get_or_create(
+            label=engine['label'])
+    return redirect('/engine-classes')
+
+
 def wii(request):
     WiiCup.objects.all().delete()
     WiiTrack.objects.all().delete()
@@ -184,7 +201,6 @@ def wii(request):
         newCup.image = wiicup['image']
         newCup.save()
         for track in tracks:
-            print(tracks[trackIndex])
             newCup.tracks.add(tracks[trackIndex])
             if (trackIndex + 1) % 4 == 0:
                 trackIndex += 1

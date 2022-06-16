@@ -1,0 +1,32 @@
+{% extends 'main.html' %}
+{% load static %}
+{% load tracktime_format %}
+
+{% block title %}
+Track Times
+{% endblock %}
+
+{% block content %}
+<main class="container">
+
+  <h1>Track Times</h1>
+
+  <a href="{% url 'timetracker:wii-record' %}" class="link scraper">Record Wii Time</a>
+
+  <ul class="tracks">
+    {% for track in tracks %}
+    <li>
+      <p>{{track.track.label}} <span>{{track.game_mode.label}}</span><span>{{track.engine_class.label}}</span>
+        &nbsp;<span>{{track.time|duration}}</span></p>
+      <p><img src="{% static 'images/characters/' %}{{track.character.image}}" /><img
+          src="{% static 'images/vehicles/' %}{{track.vehicle.image}}" />
+        <span>{{track.created_at}}</span> <span>{{track.user.username}}</span>
+      </p>
+    </li>
+    {% endfor %}
+  </ul>
+</main>
+
+
+
+{% endblock %}
